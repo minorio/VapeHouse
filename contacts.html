@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/contacts.css" />
+    <title>vape</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="logo">
+            <a href="index.html"> VapeHouse </a>
+          </div>
+          <div class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="purchase.html">Заказать</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="contactinfo">
+      <div class="container">
+        <h1 class="contactinfo__title">Контакты</h1>
+        <div class="contactinfo__row">
+          <div class="contactinfo__row-item">
+            <svg
+              width="2em"
+              height="2em"
+              viewBox="0 0 16 16"
+              class="bi bi-house-fill"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+              />
+            </svg>
+            <h5>АДРЕС</h5>
+            <p>
+              ТЦ Купаловский<br />
+              пр. Независимости 23
+            </p>
+          </div>
+          <div class="contactinfo__row-item">
+            <svg
+              width="2em"
+              height="2em"
+              viewBox="0 0 16 16"
+              class="bi bi-telephone-fill"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"
+              />
+            </svg>
+            <h5>ТЕЛЕФОН</h5>
+            <p>+375 (33) 330 07 00</p>
+          </div>
+          <div class="contactinfo__row-item">
+            <svg
+              width="2em"
+              height="2em"
+              viewBox="0 0 16 16"
+              class="bi bi-envelope-fill"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
+              />
+            </svg>
+            <h5>ПОЧТА</h5>
+            <p>vapehouse@mail.ru</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact__form">
+      <div class="container">
+        <h2 class="contact__form-title">Связаться с нами</h2>
+        <form class="form">
+          <ul class="form__list">
+            <li class="form__list-item">
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                placeholder="Имя:"
+                minlength="5"
+                maxlength="12"
+              />
+            </li>
+            <li class="form__list-item">
+              <input
+                type="email"
+                id="mail"
+                name="user_mail"
+                placeholder="Электронная почта:"
+                minlength="5"
+                maxlength="12"
+              />
+            </li>
+            <li class="form__list-item">
+              <input
+                type="number"
+                id="numberphone"
+                name="user_phone"
+                placeholder="Контактный номер:"
+                minlength="9"
+                maxlength="12"
+              />
+            </li>
+            <li class="form__list-item">
+              <input
+                type="text"
+                id="subject"
+                name="user_subject"
+                placeholder="Тема:"
+                minlength="5"
+                maxlength="12"
+              />
+            </li>
+            <li class="form__list-item">
+              <input
+                type="number"
+                id="mail"
+                name="user_ordernumber"
+                placeholder="Номер заказа:"
+                minlength="5"
+                maxlength="12"
+              />
+            </li>
+            <li class="form__list-item">
+              <textarea
+                id="msg"
+                name="user_message"
+                placeholder="Сообщение:"
+              ></textarea>
+            </li>
+          </ul>
+          <button class="form__btn" type="submit">Отправить</button>
+        </form>
+        <div class="contact__other">
+          <ul class="contact__menu-list">
+            <li class="contact__menu-list__item">
+              <a
+                class="contact__menu-list__link"
+                href="https://www.facebook.com/"
+              >
+                <!-- <img src="./images/facebook.svg" alt="" /> -->
+
+                <svg
+                  class="contact__menu-list__svg"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="contact__menu-list__item">
+              <a class="contact__menu-list__link" href="https://www.vk.com/">
+                <!-- <img src="./images/vk.svg" alt="" /> -->
+
+                <svg
+                  class="contact__menu-list__svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.802 12.298s1.617 1.597 2.017 2.336a.127.127 0 0 1 .018.035c.163.273.203.487.123.645-.135.261-.592.392-.747.403h-2.858c-.199 0-.613-.052-1.117-.4-.385-.269-.768-.712-1.139-1.145-.554-.643-1.033-1.201-1.518-1.201a.548.548 0 0 0-.18.03c-.367.116-.833.639-.833 2.032 0 .436-.344.684-.585.684H9.674c-.446 0-2.768-.156-4.827-2.327C2.324 10.732.058 5.4.036 5.353c-.141-.345.155-.533.475-.533h2.886c.387 0 .513.234.601.444.102.241.48 1.205 1.1 2.288 1.004 1.762 1.621 2.479 2.114 2.479a.527.527 0 0 0 .264-.07c.644-.354.524-2.654.494-3.128 0-.092-.001-1.027-.331-1.479-.236-.324-.638-.45-.881-.496.065-.094.203-.238.38-.323.441-.22 1.238-.252 2.029-.252h.439c.858.012 1.08.067 1.392.146.628.15.64.557.585 1.943-.016.396-.033.842-.033 1.367 0 .112-.005.237-.005.364-.019.711-.044 1.512.458 1.841a.41.41 0 0 0 .217.062c.174 0 .695 0 2.108-2.425.62-1.071 1.1-2.334 1.133-2.429.028-.053.112-.202.214-.262a.479.479 0 0 1 .236-.056h3.395c.37 0 .621.056.67.196.082.227-.016.92-1.566 3.016-.261.349-.49.651-.691.915-1.405 1.844-1.405 1.937.083 3.337z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="contact__menu-list__item">
+              <a
+                class="contact__menu-list__link"
+                href="https://www.google.com/"
+              >
+                <!-- <img src="./images/google.svg" alt="" /> -->
+
+                <svg
+                  class="contact__menu-list__svg sizeg"
+                  fill="currentColor"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.318 13.714v5.484h9.078c-0.37 2.354-2.745 6.901-9.078 6.901-5.458 0-9.917-4.521-9.917-10.099s4.458-10.099 9.917-10.099c3.109 0 5.193 1.318 6.38 2.464l4.339-4.182c-2.786-2.599-6.396-4.182-10.719-4.182-8.844 0-16 7.151-16 16s7.156 16 16 16c9.234 0 15.365-6.49 15.365-15.635 0-1.052-0.115-1.854-0.255-2.651z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="contact__menu-list__item">
+              <a
+                class="contact__menu-list__link"
+                href="https://www.instagram.com/"
+              >
+                <!-- <img src="./images/insta.svg" alt="" /> -->
+
+                <svg
+                  class="contact__menu-list__svg sizei"
+                  fill="currentColor"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 0c-4.349 0-4.891 0.021-6.593 0.093-1.709 0.084-2.865 0.349-3.885 0.745-1.052 0.412-1.948 0.959-2.833 1.849-0.891 0.885-1.443 1.781-1.849 2.833-0.396 1.020-0.661 2.176-0.745 3.885-0.077 1.703-0.093 2.244-0.093 6.593s0.021 4.891 0.093 6.593c0.084 1.704 0.349 2.865 0.745 3.885 0.412 1.052 0.959 1.948 1.849 2.833 0.885 0.891 1.781 1.443 2.833 1.849 1.020 0.391 2.181 0.661 3.885 0.745 1.703 0.077 2.244 0.093 6.593 0.093s4.891-0.021 6.593-0.093c1.704-0.084 2.865-0.355 3.885-0.745 1.052-0.412 1.948-0.959 2.833-1.849 0.891-0.885 1.443-1.776 1.849-2.833 0.391-1.020 0.661-2.181 0.745-3.885 0.077-1.703 0.093-2.244 0.093-6.593s-0.021-4.891-0.093-6.593c-0.084-1.704-0.355-2.871-0.745-3.885-0.412-1.052-0.959-1.948-1.849-2.833-0.885-0.891-1.776-1.443-2.833-1.849-1.020-0.396-2.181-0.661-3.885-0.745-1.703-0.077-2.244-0.093-6.593-0.093zM16 2.88c4.271 0 4.781 0.021 6.469 0.093 1.557 0.073 2.405 0.333 2.968 0.553 0.751 0.291 1.276 0.635 1.844 1.197 0.557 0.557 0.901 1.088 1.192 1.839 0.22 0.563 0.48 1.411 0.553 2.968 0.072 1.688 0.093 2.199 0.093 6.469s-0.021 4.781-0.099 6.469c-0.084 1.557-0.344 2.405-0.563 2.968-0.303 0.751-0.641 1.276-1.199 1.844-0.563 0.557-1.099 0.901-1.844 1.192-0.556 0.22-1.416 0.48-2.979 0.553-1.697 0.072-2.197 0.093-6.479 0.093s-4.781-0.021-6.48-0.099c-1.557-0.084-2.416-0.344-2.979-0.563-0.76-0.303-1.281-0.641-1.839-1.199-0.563-0.563-0.921-1.099-1.197-1.844-0.224-0.556-0.48-1.416-0.563-2.979-0.057-1.677-0.084-2.197-0.084-6.459 0-4.26 0.027-4.781 0.084-6.479 0.083-1.563 0.339-2.421 0.563-2.979 0.276-0.761 0.635-1.281 1.197-1.844 0.557-0.557 1.079-0.917 1.839-1.199 0.563-0.219 1.401-0.479 2.964-0.557 1.697-0.061 2.197-0.083 6.473-0.083zM16 7.787c-4.541 0-8.213 3.677-8.213 8.213 0 4.541 3.677 8.213 8.213 8.213 4.541 0 8.213-3.677 8.213-8.213 0-4.541-3.677-8.213-8.213-8.213zM16 21.333c-2.948 0-5.333-2.385-5.333-5.333s2.385-5.333 5.333-5.333c2.948 0 5.333 2.385 5.333 5.333s-2.385 5.333-5.333 5.333zM26.464 7.459c0 1.063-0.865 1.921-1.923 1.921-1.063 0-1.921-0.859-1.921-1.921 0-1.057 0.864-1.917 1.921-1.917s1.923 0.86 1.923 1.917z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <iframe
+            class="contact__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.634501122523!2d27.560526716036758!3d53.902700040592755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc05af83247%3A0xb14363c2ed5fbd4d!2z0KLQpiDQmtGD0L_QsNC70L7QstGB0LrQuNC5!5e0!3m2!1sru!2sby!4v1636298107847!5m2!1sru!2sby"
+            width="80%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
